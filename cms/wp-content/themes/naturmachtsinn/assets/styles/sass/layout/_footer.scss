@@ -1,0 +1,204 @@
+/* == SITE FOOTER == */
+
+.site-footer {
+  background: $color-basic-light;
+  padding-top: 3.4rem;
+
+  @include atMedium {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding-top: 1.0rem;
+  }
+
+
+  &__row {
+    position: relative;
+    width: 100%;
+
+    @include atMedium {
+      max-width: 1136px;
+      position: relative;
+      width: 90%;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      margin: 1.0rem auto;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+  & a {
+    color: $color-secondary;
+    @include style-text-link-default;
+  }
+
+  &-navbar {
+    @include atMedium {
+      width: 40%;
+    }
+  }
+
+  &__additional-data {
+    @include atMedium {
+      width: 30%;
+
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+  }
+
+
+  &__contact-information {
+    width: 100%;
+    border-top: 6px solid $color-basic-dark;
+    border-bottom: 6px solid $color-basic-dark;
+    text-align: center;
+    margin: 2rem auto;
+    padding-top: 1.0rem;
+
+    @include atMedium {
+      width: 50%;
+      display: initial;
+      text-align: initial;
+      list-style: none;
+      border-top: none;
+      border-bottom: none;
+    }
+
+  }
+
+  &__contact-information-details {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 1.0rem auto;
+
+    @include atMedium {
+      width: initial;
+      justify-content: initial;
+      padding-left: 2rem;
+    }
+
+  }
+
+  &__contact-information-logo {
+    min-width: 140px;
+    max-width: 160px;
+    width: auto;
+  }
+
+  &__contact-information-logo-img {
+    width: 100%;
+    margin-left: -1.5rem;
+  }
+
+  &__contact-information-address {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 1.0rem;
+    margin-left: 2.0rem;
+  }
+
+  &__contact-information-name {
+    width: 100%;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    text-transform: uppercase;
+    margin: 1.0rem auto;
+    margin-top: -0.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+
+
+
+
+
+  &-navbar__navigation-list {
+    text-align: center;
+
+    @include atMedium {
+      display: flex;
+      flex: 2;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: left;
+      list-style: none;
+    }
+  }
+
+  &-navbar__navigation-list-item {
+    line-height: 3.4rem;
+
+    @include atMedium {
+      width: 35%;
+    }
+  }
+
+  &-navbar__navigation-list-item a {
+    @include style-text-link-default;
+    color: $color-secondary;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__navigation {
+    padding-top: 4rem;
+  }
+
+  &__navigation-list {
+    text-align: center;
+    padding-bottom: 3.4rem;
+
+    @include atMedium {
+      position: relative;
+      width: 100% !important;
+      text-align: left !important;
+      list-style: none !important;
+    }
+  }
+
+  &__navigation-list-item {
+    line-height: 3.4rem;
+
+    @include atMedium {
+    }
+  }
+
+  &__navigation-list-item a {
+    @include style-text-link-default;
+    color: $color-secondary;
+    font-family: "Maven Pro", sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__copyright {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    color: $color-tertiary;
+    background-color: $color-basic-dark;
+    border-top: 2px solid $color-primary;
+
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    @include atMedium {
+      width: 100%;
+    }
+  }
+
+}

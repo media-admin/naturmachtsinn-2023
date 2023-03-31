@@ -1,0 +1,169 @@
+/* == TYPOGRAPHY SETTINGS == */
+
+/* -- Font Imports -- */
+
+/* libre-baskerville-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-regular.svg#LibreBaskerville') format('svg'); /* Legacy iOS */
+}
+/* libre-baskerville-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  src: url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-italic.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-italic.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-italic.svg#LibreBaskerville') format('svg'); /* Legacy iOS */
+}
+/* libre-baskerville-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-700.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-700.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/libre-baskerville/libre-baskerville-v14-latin_latin-ext-700.svg#LibreBaskerville') format('svg'); /* Legacy iOS */
+}
+
+
+/* maven-pro-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-regular.svg#MavenPro') format('svg'); /* Legacy iOS */
+}
+/* maven-pro-500 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-500.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-500.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-500.svg#MavenPro') format('svg'); /* Legacy iOS */
+}
+/* maven-pro-600 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-600.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-600.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-600.svg#MavenPro') format('svg'); /* Legacy iOS */
+}
+/* maven-pro-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-700.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-700.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-700.svg#MavenPro') format('svg'); /* Legacy iOS */
+}
+/* maven-pro-800 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 800;
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-800.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-800.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-800.svg#MavenPro') format('svg'); /* Legacy iOS */
+}
+/* maven-pro-900 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 900;
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-900.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-900.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/maven-pro/maven-pro-v32-latin_latin-ext-900.svg#MavenPro') format('svg'); /* Legacy iOS */
+}
+
+
+
+
+
+
+
+
+/* -- Default Classes -- */
+
+body {
+  font-size: 1.5rem;
+  font-family: "Maven Pro", sans-serif;
+  line-height: 2.6rem;
+
+  hyphens: auto;
+  hyphenate-limit-chars: auto 3;
+  hyphenate-limit-lines: 4;
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-limit-chars: auto 3;
+  -webkit-hyphenate-limit-lines: 4;
+  -ms-hyphens: auto;
+  -ms-hyphenate-limit-chars: auto 3;
+  -ms-hyphenate-limit-lines: 4;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Libre Baskerville", serif;
+  line-height: 3.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  font-family: "Maven Pro", sans-serif;
+  line-height: 2.6rem;
+}
+
+a {
+}
+
+strong {
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+  color: $color-primary;
+}

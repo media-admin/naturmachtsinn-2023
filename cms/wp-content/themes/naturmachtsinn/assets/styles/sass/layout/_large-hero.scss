@@ -1,0 +1,74 @@
+/* == LARGE HERO */
+.large-hero {
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  max-height: 350px;
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+
+  @include atMedium {
+    max-width: calc(1136px + 2rem);
+    position: relative;
+    min-height: 768px;
+    max-height: 768px;
+/*     top: -105px; */
+    margin: 0 auto;
+
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  &__img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+
+
+
+  &__text {
+    position: absolute;
+    left: 2.5rem;
+    top: 50%;
+    max-width: 60%;
+    width: auto;
+
+
+    @include atMedium {
+      max-width: 50%;
+      width: auto;
+    }
+  }
+
+
+  &__text h2 {
+    display: inline;
+    font-size: 1.8rem;
+    font-family: "Libre Baskerville", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    line-height: 5.4rem;
+    color: $color-tertiary;
+    background-color: $color-basic-dark;
+    border: 3px solid $color-secondary;
+    padding: 0.8rem 1.5rem;
+
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+
+
+    @include atMedium {
+      font-size: 4.6rem;
+      line-height: 9rem;
+      left: 6.0rem;
+    }
+  }
+}
